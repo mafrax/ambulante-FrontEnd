@@ -1,0 +1,7 @@
+{
+  "name": "myAmbulanteApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
