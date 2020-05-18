@@ -11,5 +11,5 @@ jobs:
         name: mafrax/ambulante-frontend/frontend-ambulante
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: "latest"
+        tag_semver: true
         registry: docker.pkg.github.com
