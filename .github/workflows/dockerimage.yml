@@ -11,3 +11,4 @@ jobs:
         name: mafrax/ambulante-FrontEnd
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        tags: "latest,another"
