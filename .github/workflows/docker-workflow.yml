@@ -2,9 +2,6 @@ name: Docker CD
 
 on:
   push:
-  # branches-ignore:
-  #   - "ci-workflow"
-  #   - "docker-workflow"
     paths:
     - "**Dockerfile**"
 
