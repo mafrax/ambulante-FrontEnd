@@ -19,4 +19,4 @@ EXPOSE 8100
 EXPOSE 35729
 
 # start app
-CMD ["ionic", "serve"]
+CMD ["ionic", "serve", "-p", "80", "-s", "."]
