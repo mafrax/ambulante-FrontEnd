@@ -1,6 +1,3 @@
-FROM nginx:1.17
-COPY . /usr/share/nginx/html
-
 FROM node:13.12.0-alpine
 
 # set working directory
