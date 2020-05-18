@@ -19,3 +19,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         image-name: frontend-ambulante
+        tags: "latest,another"
