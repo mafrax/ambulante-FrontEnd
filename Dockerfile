@@ -15,8 +15,5 @@ RUN npm install -g @ionic/cli
 # add app
 COPY . ./
 
-EXPOSE 8100
-EXPOSE 35729
-
 # start app
-CMD ["ionic", "serve", "-p", "80", "-s", "."]
+CMD ["ionic", "serve"]
