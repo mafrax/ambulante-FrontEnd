@@ -10,6 +10,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --silent
+RUN npm install @ionic/app-scripts@latest --save-dev
 RUN npm install -g @ionic/cli
 
 # add app
