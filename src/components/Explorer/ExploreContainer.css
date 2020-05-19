@@ -22,3 +22,14 @@
 .container a {
   text-decoration: none;
 }
+
+.main-page-header {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.input-main-page{
+  width: 70%;
+  text-align: center;
+}
+

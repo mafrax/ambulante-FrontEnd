@@ -1,9 +1,9 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar, IonButton, IonSegment, IonSegmentButton, IonLabel, IonIcon, IonGrid, IonRow, IonCol } from '@ionic/react';
 import { call, home, heart, pin, star, globe, basket, camera, bookmark } from 'ionicons/icons';
 import React, { Component } from 'react';
-import MainToolbar from '../components/MainToolbar';
+import MainToolbar from '../components/Toolbar/MainToolbar';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
+import ExploreContainer from '../components/Explorer/ExploreContainer';
 import './Page.css';
 
 const Page: React.FC = () => {

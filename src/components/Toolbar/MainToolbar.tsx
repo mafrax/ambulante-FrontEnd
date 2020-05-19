@@ -49,7 +49,6 @@ const connexion: AppPage = {
 const MainToolbar: React.FC = () => {
 
     const [text, setText] = useState<string>();
-    const [searchText, setSearchText] = useState('');
     const location = useLocation();
 
 

@@ -45,7 +45,8 @@
   },
   "devDependencies": {
     "@capacitor/cli": "2.1.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "@types/googlemaps": "^3.38.0"
   },
   "description": "An Ionic project"
 }
